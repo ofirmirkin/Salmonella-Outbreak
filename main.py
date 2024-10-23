@@ -2,7 +2,7 @@
 Python tool for finding mutations in a genome sequence using k-mer analysis and BLAST search.
 BLAST hits are saved to XML files for further analysis.
 
-Usage: python3 main.py <wild_filename> <resistant_filename>
+Usage: python3 main.py <wild_filename> <resistant_filename> optional: <BLAST (0 or 1)>
 """
 
 from collections import defaultdict
@@ -14,7 +14,7 @@ import sys
 import time
 
 
-def get_kmer_count(filename: str, k: int, stop: int = -1) -> dict[str, int]:
+def get_kmer_count(filename: str, k: int) -> dict[str, int]:
     """
     Counts k-mers in a given FASTA file.
     Returns a dictionary with k-mer sequences as keys and their counts as values.
@@ -111,6 +111,13 @@ def BLAST_search(seq: str, outfile: str = "hits.xml"):
     result_stream.close()
 
 
+def first_BLAST_result(filename: str):
+    blast_record = Blast.read(filename)  # Read the first record
+    hit = blast_record[0]
+    description = hit.target.description.split(">", 1)[0]
+    return description
+
+
 def main(wild_filename, resistant_filename):
 
     k = 15  # Length of k-mers
@@ -156,8 +163,10 @@ def main(wild_filename, resistant_filename):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 3:
-        print("Usage: python main.py <wild_filename> <resistant_filename>")
+    if len(sys.argv) < 3:
+        print(
+            "Usage: python main.py <wild_filename> <resistant_filename> optional: <BLAST (0 or 1)>"
+        )
         sys.exit(1)
 
     # Filenames for the wild and resistant genome reads
@@ -175,8 +184,15 @@ if __name__ == "__main__":
     # BLAST the sequences to find the gene
     blast_exec_time = time.time()
 
-    BLAST_search(seq_wild, "wild_hits.xml")
-    BLAST_search(seq_resistant, "resistant_hits.xml")
+    wild_hits = "wild_hits.xml"
+    resistant_hits = "resistant_hits.xml"
+
+    if len(sys.argv) > 3 and sys.argv[3] == "1":
+        BLAST_search(seq_wild, wild_hits)
+        BLAST_search(seq_resistant, resistant_hits)
 
     duration = (time.time() - blast_exec_time) / 60  # convert seconds to minutes
     print(f"BLAST hit in: {duration:.2f} minutes")
+
+    print("Wild hit: ", first_BLAST_result(wild_hits))
+    print("Resistant hit: ", first_BLAST_result(resistant_hits))

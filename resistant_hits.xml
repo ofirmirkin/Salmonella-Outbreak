@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7942959</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7942959</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>95</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EAA8795364.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EBL3582155.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|MMT47445.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|RIG55184.1| TetR family transcriptional regulator, partial [Shigella flexneri] &gt;tpg|HAF1214102.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg]</Hit_def>
+  <Hit_accession>EAA8795364</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.06746e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|EAT3185281.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECH6898368.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|ECO1187124.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|ECS3509823.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby] &gt;gb|EDC7229769.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EFX4849745.1| TetR family transcriptional regulator [Shigella flexneri]</Hit_def>
+  <Hit_accession>EAT3185281</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.45189e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ECI1767758.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|ECW1940657.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EFH7963269.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>ECI1767758</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.46769e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EFA4035101.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli O108:H9] &gt;gb|EFY3829219.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EFY4428620.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EGC2433265.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EJR4643648.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EKJ1412912.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky]</Hit_def>
+  <Hit_accession>EFA4035101</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.52788e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EAO5089113.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EAW1360140.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EDM9671579.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EEJ2087367.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Albert] &gt;gb|EFN6149010.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFN8600632.1| TetR family transcriptional regulator [Escherichia coli O79:H40] &gt;gb|MDT1908992.1| TetR family transcriptional regulator [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EAO5089113</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.62834e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EEU7900215.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EFN3304774.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EGM9279924.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EGR8454474.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EJK4288548.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EKW9973540.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|ENH1217948.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;tpg|HEE9229561.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Typhimurium var. monophasic 4,[5],12:i:-]</Hit_def>
+  <Hit_accession>EEU7900215</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.691e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EGY0157087.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EHY2589592.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EHC5102618.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EJQ5563526.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EJQ5563529.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EGY0157087</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.70868e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ECI9719440.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EEF9516615.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EEW6227529.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFI6182774.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>ECI9719440</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.02917e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|EAX0412920.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECR0288256.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EFH5659826.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>EAX0412920</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.09139e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EBD1376413.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EBM0735180.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|ECV4063975.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EDD5603927.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAJ1826957.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>EBD1376413</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.11363e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|ECU2212082.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|ECZ6431652.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EFB5242173.1| TetR family transcriptional regulator [Escherichia coli] &gt;tpg|HAE9750093.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|ECV2567928.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky]</Hit_def>
+  <Hit_accession>ECU2212082</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.12926e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EFW6299089.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EGC2403772.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EIE6490002.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EJP7563072.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;tpg|HFF4534188.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EFW6299089</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.19091e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EAC1391896.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Escherichia coli] &gt;gb|EBL5250609.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|ECB9064190.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anatum] &gt;gb|ECP2039218.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EDS5991481.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-]</Hit_def>
+  <Hit_accession>EAC1391896</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.28958e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EFX6276382.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Shigella sonnei]</Hit_def>
+  <Hit_accession>EFX6276382</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.37147e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EEQ2635834.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EHW9178861.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EIZ0294124.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;tpg|HCA4973736.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|EEZ3954344.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EEQ2635834</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.44334e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EAU9888830.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EDC7166203.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EDY1216974.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EFH5123527.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|ESD27752.1| transcriptional regulator, TetR family, partial [Escherichia coli 907710]</Hit_def>
+  <Hit_accession>EAU9888830</Hit_accession>
+  <Hit_len>51</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.44355e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EAW3951864.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EBZ7877931.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|ECH9963169.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|ECM7671002.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Dublin] &gt;gb|EFH8818463.1| TetR family transcriptional regulator [Escherichia coli] &gt;tpg|HAB2210208.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>EAW3951864</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.44485e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EBC9895015.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona] &gt;gb|EBL3559571.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EEJ0039122.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>EBC9895015</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.50183e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|EAY0181962.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECT0036468.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EDE2881751.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EAY0181965.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EBD1376456.1| TetR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAY0181962</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.59041e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EAM3995952.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EBO9106413.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EDT4375097.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Albert] &gt;gb|EEO0848598.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EFW3791562.1| TetR family transcriptional regulator [Shigella sonnei] &gt;gb|EFW4485905.1| TetR family transcriptional regulator [Shigella flexneri]</Hit_def>
+  <Hit_accession>EAM3995952</Hit_accession>
+  <Hit_len>58</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.60727e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>dbj|GHL16721.1|</Hit_id>
+  <Hit_def>hypothetical protein ECZU23_51640 [Escherichia coli]</Hit_def>
+  <Hit_accession>GHL16721</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.61965e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|EBP5640267.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EEI0203724.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EFX8960526.1| TetR family transcriptional regulator [Shigella flexneri] &gt;tpg|HAB2161057.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>EBP5640267</Hit_accession>
+  <Hit_len>52</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.62904e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|EBL4707043.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EBP5987657.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECK9126597.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|ECT4932612.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Berta] &gt;gb|EDX5161501.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EFB1872695.1| TetR family transcriptional regulator [Escherichia coli] &gt;tpg|HAV6191664.1| TetR family transcriptional regulator [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EBL4707043</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.66025e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|EES7367973.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EFT2088345.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EHL6152686.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EIW3021469.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EKU2648418.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;tpg|HBN2930013.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli O25b:H4-ST131]</Hit_def>
+  <Hit_accession>EES7367973</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.66025e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|EDN5279812.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul] &gt;gb|EDV2011129.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EDV2011136.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EEV5758838.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFW3727560.1| TetR family transcriptional regulator [Shigella flexneri]</Hit_def>
+  <Hit_accession>EDN5279812</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.70034e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EBR9254277.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cerro] &gt;gb|EFH5921768.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>EBR9254277</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.76382e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EEH3728689.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EET5496393.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EHH0228241.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EIA2227800.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EKU0288963.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|ENN4777846.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-] &gt;gb|ENP1571147.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei]</Hit_def>
+  <Hit_accession>EEH3728689</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.77507e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|EER9205205.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EGW6406321.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EJW3673660.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;tpg|HCR8573013.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;tpg|HCS3587388.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri]</Hit_def>
+  <Hit_accession>EER9205205</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.78745e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|ECI5386879.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|ECP7989413.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EDT1061847.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EFH8543781.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFV7663193.1| TetR family transcriptional regulator [Shigella flexneri]</Hit_def>
+  <Hit_accession>ECI5386879</Hit_accession>
+  <Hit_len>49</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.81191e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_162751048.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator, partial [Escherichia coli] &gt;gb|EFY7844064.1| TetR family transcriptional regulator [Shigella flexneri] &gt;gb|EJP3672214.1| TetR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAV3950325.1| TetR family transcriptional regulator [Acinetobacter baumannii] &gt;gb|EFG6773023.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFI1460022.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_162751048</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.8125e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|EJC9193432.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;tpg|HAO1640723.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;tpg|HCP1173112.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EJC9193432</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.8863e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EGY8997320.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EJI1068651.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EJZ7368524.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;tpg|HFF4196289.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|EKG5131793.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EGY8997320</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.90595e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|EBU2348475.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECC6619827.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EFN9151412.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>EBU2348475</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.99934e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|EEC6959201.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EEW7056313.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EJI1199864.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EKE0922232.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EKX0163630.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EEC6959201</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.99934e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|EAX0340514.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EBJ8187546.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECO1150426.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;tpg|HAJ1826846.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>EAX0340514</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.00755e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EAM9874193.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECA0679240.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EDS5676135.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EFA9487408.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EHF0711151.1| TetR family transcriptional regulator [Shigella flexneri] &gt;tpg|HAB3800048.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>EAM9874193</Hit_accession>
+  <Hit_len>47</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.07643e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|EGU9535120.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Choleraesuis] &gt;gb|EHV4496715.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;tpg|HCS1785497.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EKZ9513074.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|ELI2221397.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EGU9535120</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.07665e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EEV9812373.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EFQ0773610.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EFQ6030187.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|EFY8360257.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EIP3593540.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Derby] &gt;gb|EKV7456483.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EEV9812373</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.0892e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_179144805.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator, partial [Escherichia coli] &gt;gb|EHA5132990.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anatum] &gt;gb|EHB0696897.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EIR4714729.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EJH5654073.1| TetR family transcriptional regulator [Shigella flexneri] &gt;tpg|HAS9110115.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,12:i:-]</Hit_def>
+  <Hit_accession>WP_179144805</Hit_accession>
+  <Hit_len>51</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.14273e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|EET6311745.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EFQ0715065.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EGG2058659.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EJG6576134.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EJJ7284281.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|EKA6101725.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EKO0032511.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;gb|ELG7958498.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Alachua]</Hit_def>
+  <Hit_accession>EET6311745</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.15564e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|EFB9563699.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Escherichia coli] &gt;gb|EHI7233735.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EIZ9660393.1| TetR family transcriptional regulator [Shigella flexneri] &gt;gb|ELR5063961.1| TetR family transcriptional regulator [Providencia rettgeri] &gt;tpg|HAR9896926.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAV3905754.1| TetR family transcriptional regulator [Acinetobacter baumannii] &gt;tpg|HDS5228282.1| TetR family transcriptional regulator [Enterobacter hormaechei subsp. steigerwaltii]</Hit_def>
+  <Hit_accession>EFB9563699</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.20886e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_171721236.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator, partial [Shigella sonnei] &gt;gb|EEH1300237.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EGK3623866.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EIR7978758.1| TetR family transcriptional regulator [Shigella flexneri] &gt;tpg|HEE9384015.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EHR2016865.1| TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_171721236</Hit_accession>
+  <Hit_len>49</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.2765e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EAQ8452648.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EAT9182610.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECZ3777503.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EFC4213142.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EFX5784505.1| TetR family transcriptional regulator [Shigella flexneri]</Hit_def>
+  <Hit_accession>EAQ8452648</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.28729e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|EEQ5195474.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EFY3596667.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;gb|EJJ3537995.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EJY5209453.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;tpg|HBR5310260.1| tetracycline resistance transcriptional repressor TetR(B) [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>EEQ5195474</Hit_accession>
+  <Hit_len>58</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.32712e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>tpg|HCU4805066.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>HCU4805066</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>6.44504e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|EFD9286431.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;tpg|HBV3707527.1| tetracycline resistance transcriptional repressor TetR(B) [Klebsiella pneumoniae] &gt;tpg|HCR5371570.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella dysenteriae] &gt;tpg|HFF5298990.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|EGZ7184589.1| tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli]</Hit_def>
+  <Hit_accession>EFD9286431</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.5831e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|EET2484097.1|</Hit_id>
+  <Hit_def>tetracycline resistance transcriptional repressor TetR(B) [Escherichia coli] &gt;gb|EFR5641362.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EKN2674881.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella sonnei] &gt;gb|EMB7226058.1| tetracycline resistance transcriptional repressor TetR(B) [Acinetobacter baumannii] &gt;gb|ENM4586422.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica] &gt;tpg|HCR6740682.1| tetracycline resistance transcriptional repressor TetR(B) [Shigella flexneri] &gt;tpg|HDT5996816.1| tetracycline resistance transcriptional repressor TetR(B) [Citrobacter freundii] &gt;tpg|HEE9504362.1| tetracycline resistance transcriptional repressor TetR(B) [Salmonella enterica subsp. enterica serovar Derby]</Hit_def>
+  <Hit_accession>EET2484097</Hit_accession>
+  <Hit_len>52</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.63731e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_169750737.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator, partial [Escherichia coli] &gt;gb|EFR5444056.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar London] &gt;gb|EGD3598640.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EGF4719632.1| TetR family transcriptional regulator [Shigella flexneri] &gt;gb|EIQ2769160.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EKU2549897.1| TetR family transcriptional regulator [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_169750737</Hit_accession>
+  <Hit_len>46</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.78687e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|EEH8568321.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EFB8424034.1| TetR family transcriptional regulator [Escherichia coli] &gt;gb|EHF9696983.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EIE7059496.1| TetR family transcriptional regulator [Shigella flexneri] &gt;gb|ELT1770025.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Uganda] &gt;tpg|HCE4163022.1| TetR family transcriptional regulator [Acinetobacter baumannii] &gt;tpg|HCQ7804268.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>EEH8568321</Hit_accession>
+  <Hit_len>47</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>7.16512e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EAY6441078.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Salmonella enterica] &gt;gb|ECS2118795.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EED4524374.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EGZ6725397.1| TetR family transcriptional regulator [Escherichia coli] &gt;tpg|HAD0424715.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>EAY6441078</Hit_accession>
+  <Hit_len>46</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>7.24938e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SALELLNEVGIEGLTTRPLAQKLGVEQPTLY</Hsp_qseq>
+      <Hsp_hseq>SALELLNEVGIEGLTTRKLAQKLGVEQPTLY</Hsp_hseq>
+      <Hsp_midline>SALELLNEVGIEGLTTR LAQKLGVEQPTLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>826052433</Statistics_db-num>
+      <Statistics_db-len>315826391723</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
